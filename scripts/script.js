@@ -13,6 +13,5 @@ function login() {
         resultado.innerHTML = "Usuario incorrecto"
         user = document.getElementById("user").value = "";
         pass = document.getElementById("password").value = "";
-
     }
 }

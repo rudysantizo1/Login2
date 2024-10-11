@@ -10,11 +10,14 @@
     <div class="login-container">
         <h2>Login</h2>
 
-        <input type="text" id="user" placeholder="Usuario">
-        <input type="password" name="" id="password" placeholder="Contraseña">
-        <button onclick="login()">Iniciar Sesion</button>
-        <div class="resultado" id="resultado"></div>
-    </div>
+    <form action="recuperardatos" method="post">
+    
+            <input type="text" id="user" name="nombre" placeholder="Usuario">
+            <input type="password" name="clave" id="password" placeholder="Contraseña">
+            <button onclick="login()">Iniciar Sesion</button>
+            <div class="resultado" id="resultado"></div>
+    </form>
+</div>
 
     <script src="scripts/script.js"></script>
 </body>
